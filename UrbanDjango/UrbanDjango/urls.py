@@ -19,7 +19,7 @@ from django.contrib import admin
 from django.urls import path
 
 from task2.views import ClassView, function_view
-from task3.views import platform_view, game_view, cart_view
+from task4.views import platform_view, game_view, cart_view
 from UrbanDjango.views import index_view
 
 urlpatterns = [

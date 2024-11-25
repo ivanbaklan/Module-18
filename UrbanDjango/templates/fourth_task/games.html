@@ -1,0 +1,14 @@
+{% extends "fourth_task/menu.html" %}
+{% block title %}
+    <title>Игры</title>
+{% endblock %}
+{% block pagename %}
+    <h1>Игры</h1>
+{% endblock %}
+{% block content %}
+    <ul>
+    {% for game in games %}
+        <li><h3>{{ game }} <button>Купить</button></h3></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
