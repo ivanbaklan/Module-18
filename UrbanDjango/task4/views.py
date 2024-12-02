@@ -9,7 +9,7 @@ def game_view(request):
     return render(
         request,
         "fourth_task/games.html",
-        context={"games": ["Atomic Heart", "Cyberpunk 2077", "PayDay 2"]}
+        context={"games": ["Atomic Heart", "Cyberpunk 2077", "PayDay 2"]},
     )
 
 

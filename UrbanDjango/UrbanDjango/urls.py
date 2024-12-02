@@ -20,6 +20,7 @@ from django.urls import path
 
 from task2.views import ClassView, function_view
 from task4.views import platform_view, game_view, cart_view
+from task5.views import sign_up_by_django, sign_up_by_html
 from UrbanDjango.views import index_view
 
 urlpatterns = [
@@ -30,4 +31,6 @@ urlpatterns = [
     path("platform/", platform_view),
     path("platform/games/", game_view),
     path("platform/cart/", cart_view),
+    path("sign_up_by_django/", sign_up_by_django),
+    path("sign_up_by_html/", sign_up_by_html),
 ]
